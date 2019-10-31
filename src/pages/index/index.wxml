@@ -1,0 +1,25 @@
+<!-- <import src="../../wxml/motto/motto.wxml" />  // 模板引入
+<wxs src="../../wxs/powered.wxs" module="powered" /> // wxs模块引入
+<view class="container">
+  <view bindtap="bindViewTap">
+    <user avatarUrl="{{userInfo.avatarUrl}}" nickName="{{userInfo.nickName}}"></user>
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="motto">
+    <template is="motto" data="{{motto:motto}}" />
+  </view>
+  <view class="powered">
+    <text>{{powered.by}}</text>
+  </view>
+</view> -->
+<view class="userinfo">
+  <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+    获取头像昵称
+  </button>
+  <block wx:else>
+    <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    <text>一个没有框架灵魂的小程序</text>
+  </block>
+</view>

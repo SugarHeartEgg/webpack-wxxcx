@@ -1,0 +1,53 @@
+// @import 'share';
+page {
+  background-color: #ffb6c1;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .userinfo-avatar {
+    width: 128rpx;
+    height: 128rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+  }
+
+  .userinfo-nickname {
+    color: #aaa;
+  }
+}
+
+// .userinfo-avatar {
+//   width: 128rpx;
+//   height: 128rpx;
+//   margin: 20rpx;
+//   border-radius: 50%;
+// }
+
+// .userinfo-nickname {
+//   color: #aaa;
+// }
+
+
+// .motto {
+//   @extend %center-flex;
+//   margin-top: 200px;
+//   align-items: center;
+// }
+
+// .face {
+//   $r: 24rpx;
+//   width: $r;
+//   height: $r;
+//   border-radius: 50%;
+//   margin-right: 10rpx;
+// }
+
+// .powered {
+//   margin-top: 30rpx;
+//   font-size: 14px;
+//   color: gray;
+// }

@@ -1,0 +1,3 @@
+
+const name = '小程序';
+module.exports.by = `${"欢迎来到没有框架灵魂的" + name}`;
