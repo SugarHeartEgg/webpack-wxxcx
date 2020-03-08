@@ -1,12 +1,13 @@
 {
   "pages": [
+    "pages/denglu/denglu",
     "pages/index/index",
     "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#ffb6c1",
-    "navigationBarTitleText": "连公子",
+    "navigationBarBackgroundColor": "#C20C0C",
+    "navigationBarTitleText": "DIY网易音乐",
     "navigationBarTextStyle": "black"
   }
 }

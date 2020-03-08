@@ -1,3 +1,31 @@
 <template name="motto">
   <text class="user-motto">{{motto}}</text>
 </template>
+
+<!-- 
+声明
+
+创建时跟正常的创建wxml文件一样，不够里面的内容是要以<template></template>包裹
+
+如上述代码
+ -->
+
+
+
+
+<!--
+使用
+
+使用时需要用 <import/> 标签引入 
+在内容体中<template/>声明 注意一定声明 is="xxx （引入文件的名字)"
+详情微信文档可查看 
+
+xxx.wxml 
+<import src="../../wxml/motto/motto.wxml" />
+
+<template is="motto" data="{{motto:motto}}" />
+
+
+
+
+ -->

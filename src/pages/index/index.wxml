@@ -1,5 +1,10 @@
-<!-- <import src="../../wxml/motto/motto.wxml" />  // 模板引入
-<wxs src="../../wxs/powered.wxs" module="powered" /> // wxs模块引入
+<!-- 模板引入
+<import src="../../wxml/motto/motto.wxml" />
+
+ wxs模块引入
+<wxs src="../../wxs/powered.wxs" module="powered" />
+
+
 <view class="container">
   <view bindtap="bindViewTap">
     <user avatarUrl="{{userInfo.avatarUrl}}" nickName="{{userInfo.nickName}}"></user>
@@ -13,6 +18,7 @@
     <text>{{powered.by}}</text>
   </view>
 </view> -->
+
 <view class="userinfo">
   <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
     获取头像昵称
@@ -20,6 +26,6 @@
   <block wx:else>
     <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    <text>一个没有框架灵魂的小程序</text>
+    <text>{{motto}}</text>
   </block>
 </view>

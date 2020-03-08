@@ -1,3 +1,19 @@
 
 const name = '小程序';
 module.exports.by = `${"欢迎来到没有框架灵魂的" + name}`;
+
+
+// .wxs 文件结束的是  微信官方提供的wxs模板
+// 以 <wxs /> 标签引入
+// 使用时在<wxs />标签中定义module="xxx" 在xxx.wxs(自己定义的变量)
+
+// 声明
+// 注意一定要 module.exports 把数据暴露出去才行
+// xxx.wxs
+// const name = '小程序';
+// module.exports.by = `${"欢迎来到没有框架灵魂的" + name}`;
+
+// 使用
+// xxx.wxml
+// <wxs src="../../wxs/powered.wxs" module="powered" />
+// <view>{{powered.by}}</view>
