@@ -1,5 +1,9 @@
-<view class="container">
-  <view>
-    123
+<view class="denglu">
+  <view class="herdar-box">
+    <h1>My-music</h1>
+  </view>
+  <view class="content">
+    <button class="iphone" bindtap="toDengLu">手机号登录</button>
+    <button class="go-to" catchtap="toTiYan">立即体验</button>
   </view>
 </view>

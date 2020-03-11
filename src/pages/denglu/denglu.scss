@@ -1,0 +1,34 @@
+page {
+	background: #DB2C22;
+
+	.denglu {
+		.herdar-box {
+			padding-top: 450rpx;
+			font-weight: 600;
+			font-size: 40rpx;
+			text-align: center;
+			color: #fff;
+		}
+
+		.content {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+			padding-top: 150rpx;
+
+			.iphone {
+                width: 600rpx;
+                margin-bottom: 30rpx;
+				color: #DB2C22;
+			}
+
+			.go-to {
+				width: 600rpx;
+				border: 1px solid #fff;
+				color: #fff;
+				background: #DB2C22;
+			}
+		}
+	}
+}

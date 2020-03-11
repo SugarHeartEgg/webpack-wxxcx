@@ -1,13 +1,15 @@
 {
   "pages": [
     "pages/denglu/denglu",
+    "pages/zhen-shi/zhen-shi",
+    "pages/ti-yan/ti-yan",
     "pages/index/index",
     "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#C20C0C",
-    "navigationBarTitleText": "DIY网易音乐",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#DB2C22",
+    "navigationBarTitleText": "my-music",
+    "navigationBarTextStyle": "white"
   }
 }

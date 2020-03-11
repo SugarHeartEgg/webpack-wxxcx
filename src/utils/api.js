@@ -1,4 +1,4 @@
-const baseUrl = 'http://127.0.0.1:3000/'
+const baseUrl = 'http://192.168.0.108:3000/'
 
 // 请求地址处理
 const getUrl = (url) => {
@@ -31,7 +31,7 @@ const http = ({
 
         console.log(`耗时${Date.now() - timeStart}`)
         if (res.statusCode >= 200 && res.statusCode < 300) {
-          resolve(res)
+          resolve(res.data)
         } else {
           reject(res)
           wx.showToast({
