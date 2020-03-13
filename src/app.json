@@ -1,15 +1,35 @@
 {
   "pages": [
     "pages/denglu/denglu",
-    "pages/zhen-shi/zhen-shi",
-    "pages/ti-yan/ti-yan",
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/ti-yan/fa-xian/index",
+    "pages/ti-yan/dian-tai/dian-tai",
+    "pages/zhen-shi/zhen-shi"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#DB2C22",
     "navigationBarTitleText": "my-music",
     "navigationBarTextStyle": "white"
-  }
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#333333",
+    "selectedColor": "#d43a3c",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/ti-yan/fa-xian/index",
+        "iconPath": "images/icon_component.png",
+        "selectedIconPath": "images/icon_component_HL.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/ti-yan/dian-tai/dian-tai",
+        "iconPath": "images/icon_API.png",
+        "selectedIconPath": "images/icon_API_HL.png",
+        "text": "电台"
+      }
+    ]
+  },
+  "usingComponents": {}
 }

@@ -17,8 +17,8 @@ Page({
   },
   toTiYan() {
     // 去体验
-    wx.reLaunch({
-      url: '../ti-yan/ti-yan'
+    wx.switchTab({
+      url: '../ti-yan/fa-xian/index',
     });
   },
   getSearch() {
